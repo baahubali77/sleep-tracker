@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./SignUp-Image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.form-container {
+  width: 500px;
+  height: 500px;
+  border: 100px;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  right: 200px;
+  bottom: 100px;
+}
+
+.signup-container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  padding: 10px;
+}
+
+.input-value {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 300px;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 3px 1px white;
+  height: 25px;
+
+  /* transition: background-color 0.5s ease-out; */
+}
+
+.input-value:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  width: 300px;
+  height: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.account-container {
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  font-size: 0.75rem;
+  height: 25px;
+}
+
+.account-container a {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.account-container a:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
